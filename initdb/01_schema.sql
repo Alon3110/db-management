@@ -20,8 +20,3 @@ CREATE TABLE avg_sales (
     id      SERIAL PRIMARY KEY,
     receipt NUMERIC
 );
-
--- Seed one default row in each table
-INSERT INTO current_stock  (date, quantity) VALUES (NULL, NULL);
-INSERT INTO purchase_orders (order_date, supply_date, quantity) VALUES (NULL, NULL, NULL);
-INSERT INTO avg_sales (receipt) VALUES (NULL);

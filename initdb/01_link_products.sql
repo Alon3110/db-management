@@ -1,0 +1,2 @@
+-- Retired duplicate initialization script.
+-- Existing databases: apply migrations/001_product_relationships.sql manually.
